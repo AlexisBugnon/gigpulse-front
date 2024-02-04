@@ -1,0 +1,39 @@
+.img {
+  box-shadow: 10px 5px 5px black;
+}
+
+.icon {
+    width: 30px;
+    height: 30px;
+    gap: 10px;
+
+    animation: float 2s infinite ease-in-out alternate;
+  }
+
+    #icon-1 , #icon-2 , #icon-3 , #icon-4 , #icon-6, #icon-5 , #icon-7 , #icon-8 {
+        animation: float 1s infinite ease-in-out alternate;
+      }
+      #icon-2 {
+        animation-delay: .2s; 
+      }
+      #icon-3 {
+        animation-delay: .4s; 
+      }
+      #icon-4 {
+        animation-delay: .6s; 
+      }
+      #icon-5 {
+        animation-delay: .6s; 
+      }
+      #icon-6 {
+        animation-delay: .4s; 
+      }
+      #icon-7 {
+        animation-delay: .2s; 
+      }
+      
+      @keyframes float {
+        100% {
+          transform: translateY(20px);
+        }
+      }
